@@ -27,6 +27,7 @@ html_theme_options = {
 }
 
 html_title = "Subproject"
+html_logo = "logo_f5.svg"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
