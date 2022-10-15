@@ -2,5 +2,7 @@ This is a test
 ==============
 
 .. toctree::
-    cake
-    eat
+   :hidden:
+
+   cake.rst
+   eat.rst
