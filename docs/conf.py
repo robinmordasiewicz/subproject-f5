@@ -15,7 +15,7 @@ release = '1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 is_subproject=True
-readthedocs_url="https://workspacedocs.readthedocs.io/en/latest/"
+readthedocs_url="https://workspacedocs.readthedocs.io"
 
 extensions = [
     "subprojecttoctree"
