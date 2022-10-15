@@ -21,11 +21,18 @@ extensions = [
     "subprojecttoctree"
 ]
 
+html_theme_options = {
+    "repository_url": "https://github.com/subproject-f5",
+    "use_repository_button": True,
+}
+
+html_title = "Subproject"
+
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sbt-theme'
+html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
