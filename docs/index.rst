@@ -6,12 +6,6 @@
 Welcome to subproject-f5's documentation!
 =========================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   cake
-   eatit
 
 Indices and tables
 ==================
