@@ -22,7 +22,7 @@ extensions = [
 ]
 
 html_theme_options = {
-    "repository_url": "https://github.com/subproject-f5",
+    "repository_url": "https://github.com/robinmordasiewicz/subproject-f5",
     "use_repository_button": True,
 }
 
