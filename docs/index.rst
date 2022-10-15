@@ -1,1 +1,6 @@
-Thiw is a tesat
+This is a test
+==============
+
+.. toctree::
+    cake
+    eat
