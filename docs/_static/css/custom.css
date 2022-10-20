@@ -2,3 +2,7 @@
 
 /* This line is theme specific - it includes the base theme CSS */
 @import 'theme.css';
+
+.wy-nav-side {
+background: #E2E7FF;
+}

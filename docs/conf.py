@@ -31,7 +31,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'top',
     'style_external_links': False,
     'vcs_pageview_mode': 'edit',
-    'style_nav_header_background': 'white',
+    'style_nav_header_background': '#E2E7FF',
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
