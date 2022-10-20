@@ -25,6 +25,19 @@ extensions = [
 html_theme_options = {
     "repository_url": "https://github.com/robinmordasiewicz/subproject-f5",
     "use_repository_button": True,
+    'github_url': "https://github.com/robinmordasiewicz/subproject-f5",
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'top',
+    'style_external_links': False,
+    'vcs_pageview_mode': 'edit',
+    'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': True
 }
 
 html_title = "Subproject"
