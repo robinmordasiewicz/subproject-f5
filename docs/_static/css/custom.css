@@ -23,3 +23,7 @@ body {
         background:#fcfcfc
     }
 }
+
+.wy-side-nav-search .wy-dropdown>a, .wy-side-nav-search>a {
+color: #090909;
+}
