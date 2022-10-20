@@ -1,6 +1,7 @@
-This is a test
+Pages
 ==============
 
 .. toctree::
 
-   pages.rst
+   cake.rst
+   eat.rst
