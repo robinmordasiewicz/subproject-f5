@@ -1,4 +1,4 @@
-Subproject Main
+Subproject
 ===============
 
 .. toctree::

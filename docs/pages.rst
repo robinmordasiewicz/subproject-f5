@@ -1,4 +1,4 @@
-Subproject pages
+Subproject
 ==================
 
 .. toctree::
