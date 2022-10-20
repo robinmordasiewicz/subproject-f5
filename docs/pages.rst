@@ -1,5 +1,5 @@
-Pages
-==============
+Subproject pages
+==================
 
 .. toctree::
 
