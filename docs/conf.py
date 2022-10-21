@@ -19,7 +19,8 @@ readthedocs_url="https://f5-xc-workspaces.readthedocs.io"
 
 extensions = [
     "subprojecttoctree",
-    "sphinx_rtd_theme"
+    "sphinx.ext.viewcode",
+    "insipid-sphinx-theme"
 ]
 
 html_theme_options = {
@@ -37,7 +38,23 @@ html_theme_options = {
     'sticky_navigation': True,
     'navigation_depth': 4,
     'includehidden': True,
+    'breadcrumbs': True,
+    'body_centered': False,
+    'globaltoc_includehidden': True,
+    'sidebarwidth': '250',
     'titles_only': True
+}
+
+html_copy_source = True
+html_show_sourcelink = True
+pygments_style = 'monokai'
+html_show_copyright = False
+html_show_sphinx = False
+html_context = {
+    'display_gitlab': True,
+    'gitlab_user': 'robinmordasiewicz',
+    'gitlab_repo': 'subproject-f5',
+    'conf_py_path': '/docs/',
 }
 
 html_title = "Subproject"
@@ -50,7 +67,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 #html_theme = 'sphinx_book_theme'
-html_theme = "sphinx_rtd_theme"
+html_theme = "insipid"
 html_static_path = ['_static']
 
 # These paths are either relative to html_static_path
