@@ -31,3 +31,7 @@ color: #090909;
 .wy-menu-vertical a {
 color: #000000;
 }
+
+.wy-menu-vertical li.current {
+background: #f7f8fa;
+}
