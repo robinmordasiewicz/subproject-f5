@@ -19,8 +19,7 @@ readthedocs_url="https://f5-xc-workspaces.readthedocs.io"
 
 extensions = [
     "subprojecttoctree",
-    "sphinx.ext.viewcode",
-    "insipid-sphinx-theme"
+    "sphinx.ext.viewcode"
 ]
 
 html_theme_options = {
