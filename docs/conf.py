@@ -80,3 +80,4 @@ html_css_files = [
 html_style = 'css/custom.css'
 
 html_theme_options = {'body_max_width': '100%'}
+sphinx_rtd_size_width = "100%"
