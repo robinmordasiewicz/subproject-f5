@@ -1,3 +1,5 @@
+:sd_hide_title:
+
 Subproject
 ===============
 
@@ -5,3 +7,7 @@ Subproject
    :hidden:
 
    subproject.rst
+
+.. topic:: Workspaces
+
+   Make a common workspace page

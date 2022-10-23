@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'subproject-f5'
+project = 'Workspaces - project'
 copyright = '2022, Robin Mordasiewicz'
 author = 'Robin Mordasiewicz'
 release = '1.0'
@@ -19,6 +19,7 @@ readthedocs_url="https://f5-xc-workspaces.readthedocs.io"
 
 extensions = [
     "subprojecttoctree",
+    "sphinx_design",
     "sphinx.ext.viewcode"
 ]
 
@@ -56,7 +57,7 @@ html_context = {
     'conf_py_path': '/docs/',
 }
 
-html_title = "Subproject"
+html_title = "Workspaces - html_title"
 #html_logo = "logo_f5.svg"
 
 templates_path = ['_templates']
