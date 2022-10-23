@@ -177,10 +177,10 @@
                                       includehidden=theme_includehidden|tobool,
                                       titles_only=theme_titles_only|tobool) %}
             {%- if toctree %}
-              {{ toctree }}
+              {{ toctree }} BARRRRRR
             {%- else %}
               <!-- Local TOC -->
-              <div class="local-toc">{{ toc }}</div>
+              <div class="local-toc">{{ toc }} FOOOOO</div>
             {%- endif %}
           {%- endblock %}
         </div>
@@ -195,7 +195,7 @@
       <nav class="wy-nav-top" aria-label="{{ _('Mobile navigation menu') }}" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
         {%- block mobile_nav %}
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
+          <a href="{{ pathto(master_doc) }}">{{ project }} BAZZZZZ</a>
         {%- endblock %}
       </nav>
 
