@@ -132,7 +132,7 @@
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
           {%- block sidebartitle %}
-
+<!--
           {%- if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {%- else %}
@@ -150,7 +150,7 @@
             {%- endif %}
           {%- endif %}
           </a>
-
+-->
           {%- if theme_display_version %}
             {%- set nav_version = version %}
             {%- if READTHEDOCS and current_version %}
@@ -162,9 +162,9 @@
               </div>
             {%- endif %}
           {%- endif %}
-
+<!--
           {%- include "searchbox.html" %}
-
+-->
           {%- endblock %}
         </div>
 
@@ -177,10 +177,10 @@
                                       includehidden=theme_includehidden|tobool,
                                       titles_only=theme_titles_only|tobool) %}
             {%- if toctree %}
-              {{ toctree }} BARRRRRR
+              {{ toctree }}
             {%- else %}
               <!-- Local TOC -->
-              <div class="local-toc">{{ toc }} FOOOOO</div>
+              <div class="local-toc">{{ toc }}</div>
             {%- endif %}
           {%- endblock %}
         </div>
