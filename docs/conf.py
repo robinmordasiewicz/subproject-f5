@@ -25,8 +25,8 @@ extensions = [
 
 html_theme_options = {
     "repository_url": "https://github.com/robinmordasiewicz/subproject-f5",
-    "use_repository_button": True,
     'github_url': "https://github.com/robinmordasiewicz/subproject-f5",
+    "use_repository_button": True,
     'logo_only': False,
     'display_version': True,
     'prev_next_buttons_location': 'top',
