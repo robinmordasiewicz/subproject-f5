@@ -1,7 +1,7 @@
-Workspaces
+Subproject
 ===============
 
 .. toctree::
    :hidden:
 
-   pages.rst
+   subproject.rst
