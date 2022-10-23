@@ -130,9 +130,9 @@
     {#- SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
+<!--
         <div class="wy-side-nav-search" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
           {%- block sidebartitle %}
-<!--
           {%- if logo and theme_logo_only %}
             <a href="{{ pathto(master_doc) }}">
           {%- else %}
@@ -150,7 +150,7 @@
             {%- endif %}
           {%- endif %}
           </a>
--->
+
           {%- if theme_display_version %}
             {%- set nav_version = version %}
             {%- if READTHEDOCS and current_version %}
@@ -162,11 +162,11 @@
               </div>
             {%- endif %}
           {%- endif %}
-<!--
+
           {%- include "searchbox.html" %}
--->
           {%- endblock %}
         </div>
+-->
 
         {%- block navigation %}
         {#- Translators: This is an ARIA section label for the main navigation menu -#}
@@ -195,7 +195,7 @@
       <nav class="wy-nav-top" aria-label="{{ _('Mobile navigation menu') }}" {% if theme_style_nav_header_background %} style="background: {{theme_style_nav_header_background}}" {% endif %}>
         {%- block mobile_nav %}
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="{{ pathto(master_doc) }}">{{ project }} BAZZZZZ</a>
+          <a href="{{ pathto(master_doc) }}">{{ project }}</a>
         {%- endblock %}
       </nav>
 
