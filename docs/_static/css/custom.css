@@ -35,3 +35,7 @@ color: #000000;
 .wy-menu-vertical li.current {
 background: #f7f8fa;
 }
+
+.wy-nav-content {
+    max-width: 1200px !important;
+}
